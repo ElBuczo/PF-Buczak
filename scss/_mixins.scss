@@ -1,0 +1,33 @@
+$paleta:(
+    'uno': #af40f6,
+    'dos': #df1ce6,
+    'tres':#bb20c1,
+    'cuatro':#ecdde9,
+    'cinco': #9b9a9b,
+    'seis': #292829,
+    'siete':#e205bb,
+    'ocho':#dfa1d4,
+    'nueve':#bd9eb8,
+    'diez':#e7cfe3,
+    'once': #6e646c,
+    'doce': #7f3472,
+    'trece':#3f393e,
+);
+
+
+// {
+// background-color: map-get($map:$paleta , $key:'nueve');
+// }
+
+
+@mixin flex ($direction, $justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+// div{
+//     @include flex(row,center,center);
+// }

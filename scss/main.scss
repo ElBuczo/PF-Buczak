@@ -1,40 +1,6 @@
-h1{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-
-
-}
-
-.encabezado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.carousel.inner{
-    max-height: 39rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slide{
-    width: 40%;
-}
-
-.novedades{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-
-}
-
-.card-group{
-    padding: 5px;
-
-}
-
-
+@import "_mixins";
+@import "_commons";
+@import "_fonts";
+@import "_tienda";
+@import "_footer";
 @import "../node_modules/bootstrap/scss/bootstrap";
