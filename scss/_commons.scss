@@ -8,7 +8,7 @@
     background-color: map-get($map:$paleta , $key:'nueve')
 }
 
-h1{
+.articulos-destacados{
 display: flex;
 justify-content: center;
 padding: 30px;
@@ -50,5 +50,4 @@ padding: 20px;
 padding: 5px;
 
 }
-
 

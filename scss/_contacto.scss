@@ -1,0 +1,21 @@
+.Contacto-titulo{
+    @include flex(row,center,center)
+}
+
+.Contacto-form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.texto-form{
+    padding: 12px;
+    margin: 5px;
+    width: 100%;
+    background-color: rgba(255, 80, 80, 0.397);
+    display: flex;
+    border: 0;
+    border-radius: 5%;
+}
+
+.moverbotones{
+    @include flex(row,center,center)
+ }
