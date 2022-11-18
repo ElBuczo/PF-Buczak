@@ -7,7 +7,15 @@
 }
 
 #nav-color {
-  background-color: #fdb8ff;
+  background-color: #cc94ce;
+}
+
+header p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
 }
 
 .articulos-destacados {
@@ -17,6 +25,8 @@
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: infinite;
+  font-family: "Roboto", sans-serif;
+  color: #cc94ce;
 }
 @keyframes aparecer {
   0% {
@@ -25,10 +35,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.encabezado {
-  background-color: #fdb8ff;
 }
 
 .encabezado {
@@ -62,6 +68,27 @@
   padding: 5px;
 }
 
+.novedades {
+  color: #cc94ce;
+}
+
+.nosotros h1, .nosotros .h1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #cc94ce;
+  font-size: 3em;
+  font-weight: 700;
+}
+.nosotros p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #bd9eb8;
+}
+
 .title-tienda {
   display: flex;
   flex-direction: row;
@@ -79,7 +106,7 @@
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;
-  background: #f4f4f4;
+  background: white;
   padding: 0;
 }
 
@@ -94,7 +121,7 @@
   font-style: normal;
   font-size: 3rem;
   content: "\f106";
-  color: #1f7de2;
+  color: #bd9eb8;
   float: right;
   margin-top: -12px;
 }
@@ -107,16 +134,24 @@
   font-size: 1.2rem;
 }
 
-.Contacto-titulo {
+.container-faq h2, .container-faq .h2 {
+  color: #9b9a9b;
+}
+
+.contacto-titulo {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #bd9eb8;
 }
 
 .Contacto-form {
   padding-left: 10%;
   padding-right: 10%;
+}
+.Contacto-form label {
+  color: #bd9eb8;
 }
 
 .texto-form {
@@ -141,7 +176,13 @@ footer {
   width: 100%;
   height: auto;
   padding: 50px 100px;
-  background-color: aquamarine;
+  background-color: #cc94ce;
+}
+footer h2, footer .h2 {
+  color: white;
+}
+footer p {
+  color: #f7f7f7;
 }
 
 .footer-continer {
@@ -165,7 +206,7 @@ footer .footer-continer .sec h2::before, footer .footer-continer .sec .h2::befor
   left: 0;
   width: 50px;
   height: 2px;
-  background: #ffeb3b;
+  background: #ff97ff;
 }
 
 footer .footer-continer .sec p {
@@ -180,16 +221,17 @@ footer .footer-continer .sec p {
   display: inline-block;
   width: 39px;
   height: 39px;
-  background: #3e56cb;
+  background-color: #9b9a9b;
   display: grid;
   align-content: center;
   justify-content: center;
   text-decoration: none;
   border-radius: 4px;
+  color: #f7f7f7;
 }
 
 .sci li a:hover {
-  background: #6480fe;
+  background-color: #cc94ce;
 }
 
 .sci li a .fa {
@@ -211,7 +253,7 @@ footer .footer-continer .sec p {
 }
 
 .quicklinks li a:hover {
-  color: #ffeb3b;
+  color: black;
 }
 
 .info {
@@ -243,7 +285,7 @@ footer .footer-continer .sec p {
 
 .copyrightText {
   width: 100%;
-  background: #1f3389;
+  background-color: #cc94ce;
   padding: 8px 100px;
   text-align: center;
   color: #fff;

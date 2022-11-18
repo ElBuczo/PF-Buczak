@@ -8,6 +8,18 @@
     background-color: map-get($map:$paleta , $key:'dos')
 }
 
+header{
+    p{
+        font-family: $fontMain;
+
+    }
+}
+
+nav{
+    a{
+        font-family: $fontMain;
+    }
+}
 .articulos-destacados{
 display: flex;
 justify-content: center;
@@ -15,6 +27,12 @@ padding: 30px;
 animation-duration: 2s;
 animation-name: aparecer;
 animation-iteration-count: infinite;
+font-family: $fontMain;
+color: map-get($map:$paleta , $key:'dos');
+
+
+
+
 
 @keyframes aparecer{
     0%{
@@ -27,10 +45,6 @@ animation-iteration-count: infinite;
 
 }
 
-.encabezado{
-    background-color: map-get($map:$paleta , $key:'dos')
-    
-}
 
 .encabezado{
 @include flex(row,center,center)
@@ -56,3 +70,23 @@ padding: 5px;
 
 }
 
+.novedades{
+    color: map-get($map:$paleta , $key:'dos');   
+}
+
+.nosotros{
+    h1{
+        font-family: $fontMain;
+        @include flex(row,center,center);
+        color: map-get($map:$paleta , $key:'dos');
+        font-size: $textXxl;
+        font-weight: $textBold;
+
+    }
+    p{
+        font-family: $fontMain;
+        font-size: $textXl;
+        font-weight: $textRegular;
+        color: map-get($map:$paleta , $key:'nueve');
+    }
+}

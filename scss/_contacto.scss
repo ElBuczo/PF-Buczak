@@ -1,10 +1,14 @@
-.Contacto-titulo{
-    @include flex(row,center,center)
+.contacto-titulo{
+    @include flex(row,center,center);
+    color: map-get($map:$paleta , $key:'nueve');    
 }
 
 .Contacto-form{
     padding-left: 10%;
     padding-right: 10%;
+    label{
+        color: map-get($map:$paleta , $key:'nueve');
+    }
 }
 .texto-form{
     padding: 12px;
@@ -15,6 +19,8 @@
     border: 0;
     border-radius: 5%;
 }
+
+
 
 .moverbotones{
     @include flex(row,center,center)

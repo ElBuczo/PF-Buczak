@@ -1,6 +1,6 @@
 .accordion-section .panel-default > .panel-heading {
     border: 0;
-    background: #f4f4f4;
+    background: white;
     padding: 0;
 }
 .accordion-section .panel-default .panel-title a {
@@ -13,7 +13,7 @@
     font-style: normal;
     font-size: 3rem;
     content: "\f106";
-    color: #1f7de2;
+    color: map-get($map:$paleta , $key:'nueve');
     float: right;
     margin-top: -12px;
 }
@@ -22,4 +22,11 @@
 }
 .accordion-section .panel-default .panel-body {
     font-size: 1.2rem;
+}
+
+.container-faq{
+    h2{
+        color: map-get($map:$paleta , $key:'cinco');
+    }
+
 }
